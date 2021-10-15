@@ -18,7 +18,14 @@ npx tailwindcss init -p
 
 
 
-Modify purge setting in tailwind
+Modify purge setting in tailwind.
+
+Add tailwind in global css
+
+Setup done.
+
+
+
 
 
 
