@@ -25,7 +25,14 @@ Add tailwind in global css
 Setup done.
 
 
+Husky for fixing lint issue, typescript issues, prettier issues.
 
+Husky : Stopper for preventing bad commit. 
+
+cmd : npx husky init
+
+
+we have git hooks for different actions like precommit , premerge
 
 
 
