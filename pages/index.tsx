@@ -1,13 +1,6 @@
-import {
-  GetServerSideProps,
-  GetServerSidePropsContext,
-  GetStaticProps,
-  GetStaticPropsContext,
-  NextPage,
-} from "next";
+import { NextPage } from "next";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-import { Service } from "../types";
 
 const About: NextPage = () => {
   // console.log(services);
@@ -15,7 +8,8 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
-      I’m primarily a human being who loves to code ❤️. Passionate about learning and exploring the latest technologies.
+        I’m primarily a human being who loves to code ❤️. Passionate about
+        learning and exploring the latest technologies.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

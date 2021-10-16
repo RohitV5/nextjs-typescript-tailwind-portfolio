@@ -26,13 +26,27 @@ Setup done.
 
 
 Husky for fixing lint issue, typescript issues, prettier issues.
+https://www.youtube.com/watch?v=oWty0Nw1ydk&t=304s
 
 Husky : Stopper for preventing bad commit. 
 
 cmd : npx husky init
 
+yarn add  lint-staged prettier --dev
+
+in pre commit hook file add
+
+in tsconfig we set some parameters we want before commiting.
+
+added cypress test suite.
+https://www.youtube.com/watch?v=908tha_vR8Q
+
+
+
 
 we have git hooks for different actions like precommit , premerge
+
+added cypress test
 
 
 

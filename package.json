@@ -35,8 +35,10 @@
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
       "yarn eslint",
-      "yarn prettier --write",
-      "yarn test --watchAll=false --findRelatedTests --bail"
+
+
+      
+      "yarn prettier --write"
     ]
   }
 }
